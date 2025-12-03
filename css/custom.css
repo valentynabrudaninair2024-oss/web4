@@ -1,0 +1,58 @@
+.item-card {
+  max-width: 420px;
+}
+
+.item-container__image {
+  min-height: 200px;
+  max-width: 420px;
+  cursor: pointer;
+}
+
+.delete-section {
+  color: white;
+  padding: 20px;
+  border: 1px solid rgb(255, 53, 53);
+  border-radius: 16px;
+  background: rgba(255, 53, 53, 0.3);
+  min-height: 400px;
+  display: grid;
+  place-items: center;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.delete-section.selected {
+  background: rgba(255, 53, 53, 0.5);
+}
+
+.delete-section__icon {
+  width: 40px;
+}
+
+/* Стилі для картки готелю */
+.hotel__item {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 15px 20px;
+  margin-bottom: 15px;
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hotel__item-title {
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 8px;
+  color: #333333;
+}
+
+.hotel__item-name,
+.hotel__item-rooms,
+.hotel__item-year {
+  font-size: 0.95rem;
+  margin-bottom: 5px;
+  color: #555555;
+}
+
+.active {
+  background-color: red;
+  
+}
